@@ -9,14 +9,6 @@ class AboutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var gestureDetector = GestureDetector(
-      onTap: () {
-        print("LOL");
-      },
-      child: UserCard(
-        user: _userService.getUser(),
-      ),
-    );
     return Scaffold(
         appBar: AppBar(
           title: const Text('About'),
@@ -27,7 +19,9 @@ class AboutScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                gestureDetector,
+                UserCard(
+                  user: _userService.getUser(),
+                ),
                 const Text(
                     'This is a simple app to demonstrate how to use Flutter !'),
               ],
