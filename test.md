@@ -1,4 +1,41 @@
-# Chapter #1: Оператори "синтаксичного цукру". Наприклад оператор "??="
+# Chapter #1: ListView
+
+## ListView builder (factory constructor)
+
+<center>
+
+**Column**
+
+</center>
+
+1. One Piece: The Movie (watch after episode 18)
+
+---
+
+2. One Piece: Clockwork Island Adventure (watch after episode 53)
+
+---
+
+3. One Piece: Chopper’s Kingdom on the Island of Strange Animals (watch after episode 102)
+
+<center>
+
+**Row**
+
+</center>
+
+
+ |   |   |   |   |   | 
+ | --- | --- | --- | --- | --- | 
+ | 1. One Piece: The Movie (watch after episode 18) |  &  | 2. One Piece: Clockwork Island Adventure (watch after episode 53) |  &  | 3. One Piece: Chopper’s Kingdom on the Island of Strange Animals (watch after episode 102)
+
+## ListView constructor
+
+One Piece: The Movie (watch after episode 18)
+
+One Piece: Clockwork Island Adventure (watch after episode 53)
+
+One Piece: Chopper’s Kingdom on the Island of Strange Animals (watch after episode 102)
 
 # Chapter #2: Використання параметрів за замовчуванням
 

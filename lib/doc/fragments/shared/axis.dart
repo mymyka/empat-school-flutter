@@ -1,0 +1,1 @@
+enum WritingAxis { horizontal, vertical }
